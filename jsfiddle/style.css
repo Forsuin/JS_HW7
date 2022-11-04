@@ -1,0 +1,38 @@
+body {
+    /* put in font-family property for body */
+    font-family: "Comic Sans MS", "Comic Sans", "Times New Roman", sans-serif;
+
+    /* alter BGColor to light blue property for body */
+    background: #ADD8E6;
+}
+
+
+/* make h1 and h2 different colors by using the color property */
+
+h1 {
+    /* give the h1 a bottom border */
+    border-bottom-style: solid;
+    color: maroon;
+}
+
+h2 {
+    color: purple;
+}
+
+p {
+    /* make the line-height to be 150% 
+     and the padding-left 2em; */
+    padding-left: 2em;
+    line-height: 150%;
+}
+
+.badge {
+    width: 100px;
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.clearfix {
+    overflow: auto;
+}
